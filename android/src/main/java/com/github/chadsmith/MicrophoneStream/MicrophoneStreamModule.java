@@ -80,7 +80,7 @@ class MicrophoneStreamModule extends ReactContextBaseJavaModule {
         }
 
         audioRecord = new AudioRecord(
-                MediaRecorder.AudioSource.VOICE_COMMUNICATION,
+                MediaRecorder.AudioSource.VOICE_RECOGNITION,
                 sampleRateInHz,
                 channelConfig,
                 audioFormat,
